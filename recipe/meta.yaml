@@ -1,5 +1,5 @@
 {% set name = "striprtf" %}
-{% set version = "0.0.26" %}
+{% set version = "0.0.27" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/striprtf-{{ version }}.tar.gz
-  sha256: fdb2bba7ac440072d1c41eab50d8d74ae88f60a8b6575c6e2c7805dc462093aa
+  sha256: cb7653dda023fd3e2c6455d2bac2580fb1c624774a78b249e815890c9dc37669
 
 build:
   noarch: python
