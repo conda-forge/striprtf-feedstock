@@ -21,6 +21,7 @@ requirements:
     - hatchling
   run:
     - python >={{ python_min }}
+    - twine
 
 test:
   imports:
