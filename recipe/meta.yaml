@@ -1,13 +1,13 @@
 {% set name = "striprtf" %}
-{% set version = "0.0.32" %}
+{% set version = "0.0.33" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/striprtf-{{ version }}.tar.gz
-  sha256: 7f375a375d99a2700842173168c90c9b545cb244241ffc5d868ed9f6baf9155f
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/striprtf-{{ version }}.tar.gz
+  sha256: c2d3d9ff3118df6dab558675f10a31ff8bb999ac1f8921f00c6dc9ea19961f18
 
 build:
   noarch: python
